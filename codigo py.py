@@ -54,7 +54,7 @@ while opcao != 2:
                 buzzer = 'Tone'
             else:
                 print("Digite um número entre 1 e 10")
-                continue
+                break
 
             dados.append(ar)
             count += 1
